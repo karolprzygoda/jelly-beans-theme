@@ -14,11 +14,37 @@ A low-contrast port of the classic **jellybeans.vim** color scheme for VS Code, 
 
 ## Screenshots
 
-![TypeScript Example](screenshots/typescript.png)
-![React/JSX Example](screenshots/react.png)
-![Python Example](screenshots/python.png)
-![HTML/CSS Example](screenshots/html-css.png)
+### JavaScript
 
+![JavaScript Example](assets/javascript.png)
+
+### TypeScript
+
+![TypeScript Example](assets/typescript.png)
+
+### React TypeScript
+
+![React/TSX Example](assets/tsx.png)
+
+### HTML
+
+![HTML Example](assets/html.png)
+
+### CSS
+
+![CSS Example](assets/css.png)
+
+### Python
+
+![Python Example](assets/python.png)
+
+### Rust
+
+![Rust Example](assets/rust.png)
+
+### GO
+
+![GO Example](assets/go.png)
 
 ## Installation
 
