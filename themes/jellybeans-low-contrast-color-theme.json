@@ -15,9 +15,9 @@
   "colors": {
     "editor.background": "#151515",
     "editor.foreground": "#e8e8d3",
-    "editor.lineHighlightBackground": "#00000055",
+    "editor.lineHighlightBackground": "#1f1f1fbf",
     "editor.selectionBackground": "#3f3f3faa",
-    "editorCursor.foreground": "#b2dfd1",
+    "editorCursor.foreground": "#8fbfdc",
     "editorWhitespace.foreground": "#4b4e53",
     "editorLineNumber.activeForeground": "#fabb6e",
 
@@ -41,6 +41,7 @@
     "titleBar.activeForeground": "#e8e8d3",
     "titleBar.inactiveForeground": "#888888",
     "titleBar.border": "#2a2a2a",
+    "quickInputList.focusBackground": "#1c1c1c",
 
     // Editor groups & tabs
     "editorGroup.border": "#2a2a2a",
@@ -154,9 +155,9 @@
     "diffEditor.removedTextBackground": "#cf6a4c33",
     "diffEditor.insertedLineBackground": "#99ad6a22",
     "diffEditor.removedLineBackground": "#cf6a4c22",
-    "editorGutter.addedBackground": "#99ad6a88",
-    "editorGutter.modifiedBackground": "#fad07a88",
-    "editorGutter.deletedBackground": "#cf6a4c88",
+    "editorGutter.addedBackground": "#99ad6a",
+    "editorGutter.modifiedBackground": "#fad07a",
+    "editorGutter.deletedBackground": "#cf6a4c",
     "editorGutter.commentRangeForeground": "#4b4e53",
 
     // Editor selection
@@ -206,10 +207,7 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#888888"
       }
@@ -223,10 +221,7 @@
     },
     {
       "name": "Comments: Documentation",
-      "scope": [
-        "comment.documentation",
-        "comment.block.documentation"
-      ],
+      "scope": ["comment.documentation", "comment.block.documentation"],
       "settings": {
         "foreground": "#858585"
       }
@@ -260,10 +255,7 @@
     },
     {
       "name": "Types",
-      "scope": [
-        "storage.type",
-        "support.type"
-      ],
+      "scope": ["storage.type", "support.type"],
       "settings": {
         "foreground": "#8197BF"
       }
@@ -282,10 +274,7 @@
     },
     {
       "name": "Variables",
-      "scope": [
-        "variable",
-        "support.variable"
-      ],
+      "scope": ["variable", "support.variable"],
       "settings": {
         "foreground": "#ddddc1"
       }
@@ -341,10 +330,7 @@
     },
     {
       "name": "Directive punctuation c",
-      "scope": [
-        "punctuation.definition.directive.c",
-        "punctuation.definition.directive.cpp"
-      ],
+      "scope": ["punctuation.definition.directive.c", "punctuation.definition.directive.cpp"],
       "settings": {
         "foreground": "#8197BF"
       }
@@ -387,22 +373,14 @@
     },
     {
       "name": "Type alias names (after `type`)",
-      "scope": [
-        "entity.name.type",
-        "entity.name.type.ts",
-        "entity.name.type.alias",
-        "entity.name.type.alias.ts"
-      ],
+      "scope": ["entity.name.type", "entity.name.type.ts", "entity.name.type.alias", "entity.name.type.alias.ts"],
       "settings": {
         "foreground": "#cf6a4c"
       }
     },
     {
       "name": "Numbers, Characters",
-      "scope": [
-        "constant.numeric",
-        "constant.character"
-      ],
+      "scope": ["constant.numeric", "constant.character"],
       "settings": {
         "foreground": "#cf6a4c"
       }
@@ -477,40 +455,28 @@
     },
     {
       "name": "HTML: Tag Names (native elements)",
-      "scope": [
-        "entity.name.tag"
-      ],
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#fabb6e"
       }
     },
     {
       "name": "React / JSX Components",
-      "scope": [
-        "support.class.component.js",
-        "support.class.component.tsx",
-        "entity.name.type.module.jsx"
-      ],
+      "scope": ["support.class.component.js", "support.class.component.tsx", "entity.name.type.module.jsx"],
       "settings": {
         "foreground": "#fabb6e"
       }
     },
     {
       "name": "HTML: Attribute Names",
-      "scope": [
-        "meta.tag entity.other.attribute-name",
-        "entity.other.attribute-name.html"
-      ],
+      "scope": ["meta.tag entity.other.attribute-name", "entity.other.attribute-name.html"],
       "settings": {
         "foreground": "#8197BF"
       }
     },
     {
       "name": "HTML: Entities",
-      "scope": [
-        "constant.character.entity",
-        "punctuation.definition.entity"
-      ],
+      "scope": ["constant.character.entity", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#cf6a4c"
       }
@@ -537,10 +503,7 @@
     },
     {
       "name": "CSS: Property Names",
-      "scope": [
-        "meta.property-name",
-        "support.type.property-name"
-      ],
+      "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
         "foreground": "#ddddc1"
       }
@@ -587,39 +550,28 @@
     },
     {
       "name": "JSDoc: definition block tag",
-      "scope": [
-        "punctuation.definition.block.tag.jsdoc",
-        "punctuation.definition.inline.tag.jsdoc"
-      ],
+      "scope": ["punctuation.definition.block.tag.jsdoc", "punctuation.definition.inline.tag.jsdoc"],
       "settings": {
         "foreground": "#8197BF"
       }
     },
     {
       "name": "JSDoc: punctuation curly brackets",
-      "scope": [
-        "punctuation.definition.bracket.curly.begin.jsdoc",
-        "punctuation.definition.bracket.curly.end.jsdoc"
-      ],
+      "scope": ["punctuation.definition.bracket.curly.begin.jsdoc", "punctuation.definition.bracket.curly.end.jsdoc"],
       "settings": {
         "foreground": "#fabb6e"
       }
     },
     {
       "name": "Clojure: Keyword",
-      "scope": [
-        "constant.keyword.clojure"
-      ],
+      "scope": ["constant.keyword.clojure"],
       "settings": {
         "foreground": "#ffe2a9"
       }
     },
     {
       "name": "Markdown: Heading ",
-      "scope": [
-        "markup.heading.markdown",
-        "punctuation.definition.heading.markdown"
-      ],
+      "scope": ["markup.heading.markdown", "punctuation.definition.heading.markdown"],
       "settings": {
         "foreground": "#fabb6e"
       }
@@ -659,9 +611,7 @@
     },
     {
       "name": "Markdown Quote",
-      "scope": [
-        "punctuation.definition.quote.begin.markdown"
-      ],
+      "scope": ["punctuation.definition.quote.begin.markdown"],
       "settings": {
         "foreground": "#cf6a4c"
       }
@@ -681,20 +631,14 @@
     },
     {
       "name": "Markdown: Strong",
-      "scope": [
-        "markup.bold.markdown",
-        "punctuation.definition.bold.markdown"
-      ],
+      "scope": ["markup.bold.markdown", "punctuation.definition.bold.markdown"],
       "settings": {
         "fontStyle": "bold"
       }
     },
     {
       "name": "Markdown: Emphasize",
-      "scope": [
-        "markup.italic.markdown",
-        "punctuation.definition.italic.markdown"
-      ],
+      "scope": ["markup.italic.markdown", "punctuation.definition.italic.markdown"],
       "settings": {
         "fontStyle": "italic"
       }
@@ -725,19 +669,14 @@
     },
     {
       "name": "Latex & Markdown Math",
-      "scope": [
-        "punctuation.definition.math.begin.markdown",
-        "punctuation.definition.math.end.markdown"
-      ],
+      "scope": ["punctuation.definition.math.begin.markdown", "punctuation.definition.math.end.markdown"],
       "settings": {
         "foreground": "#99ad6a"
       }
     },
     {
       "name": "Latex Constant",
-      "scope": [
-        "punctuation.definition.constant.math.tex"
-      ],
+      "scope": ["punctuation.definition.constant.math.tex"],
       "settings": {
         "foreground": "#cf6a4c"
       }
