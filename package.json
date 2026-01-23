@@ -1,12 +1,12 @@
 {
-  "name": "jellybeans-low-contrast-theme",
-  "displayName": "Jellybeans Low Contrast",
-  "description": "Low-contrast port of the Jellybeans Vim colorscheme for VS Code, with consistent function/property coloring and subtle borders.",
+  "name": "jelly-beans-theme",
+  "displayName": "Jelly Beans",
+  "description": "Port of the Jellybeans Vim colorscheme for VS Code, with consistent function/property coloring and subtle borders.",
   "version": "0.0.1",
   "publisher": "karolprzygoda",
   "repository": {
     "type": "git",
-    "url": "https://github.com/karolprzygoda/jellybeans-low-contrast-theme"
+    "url": "https://github.com/karolprzygoda/jelly-beans-theme"
   },
   "icon": "icon.png",
   "license": "MIT",
@@ -19,9 +19,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Jellybeans Low Contrast",
+        "label": "Jelly Beans",
         "uiTheme": "vs-dark",
-        "path": "./themes/jellybeans-low-contrast-color-theme.json"
+        "path": "./themes/jelly-beans.json"
       }
     ]
   }
