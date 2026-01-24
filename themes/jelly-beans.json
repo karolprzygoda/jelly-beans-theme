@@ -749,7 +749,7 @@
       "foreground": "#fad07a"
     },
     "type.defaultLibrary": {
-      "foreground": "#8197BF"
+      "foreground": "#ffb65c"
     }
   },
   "tokenColors": [
@@ -1549,7 +1549,9 @@
         "keyword.operator.expression.of.js",
         "keyword.operator.expression.of.ts",
         "keyword.operator.expression.typeof.js",
-        "keyword.operator.expression.typeof.ts"
+        "keyword.operator.expression.typeof.ts",
+        "keyword.operator.expression.typeof.tsx",
+        "keyword.operator.expression.typeof.jsx"
       ],
       "settings": {
         "foreground": "#8197BF"
