@@ -569,7 +569,8 @@
     "button.secondaryBorder": "#8197BF",
     "table.headerBackground": "#333333",
     "table.headerForeground": "#e8e8d3",
-    "list.focusAndSelectionBackground": "#404040"
+    "list.focusAndSelectionBackground": "#404040",
+    "widget.border": "#404040"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
